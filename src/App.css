@@ -24,15 +24,45 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.gridContainer{
+  display:grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 20vh 20vh 20vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gridContainer li{
+  list-style-type: none;
+  border:2px solid #282c34;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.gridContent{
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.remove-top-border{
+  border-top: none;
+}
+.remove-left-border{
+  border-left: none;
+}
+.remove-right-border{
+  border-right: none;
+}
+.remove-bottom-border{
+  border-bottom: none;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: 200px;
 }
