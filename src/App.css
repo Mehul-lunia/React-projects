@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -65,4 +66,17 @@
 .cont{
   display: grid;
   grid-template-columns: 200px;
+=======
+/* body{
+    background-color: #343a40;
+    color: white;
+} */
+.black{
+    background-color: #343a40;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+>>>>>>> 90e9f7cc2642f517aba27296f0a38494a3be7d55
 }
