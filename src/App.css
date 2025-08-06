@@ -1,3 +1,72 @@
+<<<<<<< HEAD
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.gridContainer{
+  display:grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 20vh 20vh 20vh;
+}
+
+.gridContainer li{
+  list-style-type: none;
+  border:2px solid #282c34;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.gridContent{
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.remove-top-border{
+  border-top: none;
+}
+.remove-left-border{
+  border-left: none;
+}
+.remove-right-border{
+  border-right: none;
+}
+.remove-bottom-border{
+  border-bottom: none;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: 200px;
+=======
 /* body{
     background-color: #343a40;
     color: white;
@@ -9,4 +78,5 @@
 .white{
     background-color: white;
     color: black;
+>>>>>>> 90e9f7cc2642f517aba27296f0a38494a3be7d55
 }

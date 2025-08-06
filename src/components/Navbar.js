@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+import React from 'react'
+
+export default function Navbar() {
+  return (
+    <nav class="navbar bg-body-tertiary" data-bs-theme='dark'>
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Tic Tac Toe</span>
+      </div>
+    </nav>
+  )
+}
+=======
 import React, {useRef } from 'react'
 import {useSelector,useDispatch} from 'react-redux'
 import { selectTheme,TOGGLE_MODE } from '../Reducer'
@@ -65,3 +78,4 @@ const Navbar = (props) => {
 }
 
 export default Navbar
+>>>>>>> 90e9f7cc2642f517aba27296f0a38494a3be7d55

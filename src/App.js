@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+import React from 'react'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
+import './App.css'
+
+export default function App() {
+  return (
+    <>
+    <Navbar/>
+    <Main/>
+    </>
+  )
+}
+=======
 import React,{useState,useEffect,createContext} from 'react'
 import News from './components/News';
 import Navbar from './components/Navbar';
@@ -121,3 +136,4 @@ setNewsArray(res.data.articles);
 }
 
 export default App
+>>>>>>> 90e9f7cc2642f517aba27296f0a38494a3be7d55
